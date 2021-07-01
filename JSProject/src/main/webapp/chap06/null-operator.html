@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Null 병합연산자</title>
+</head>
+<body>
+<script>
+//		let result = prompt('종료하시겠습니까?', '네');
+//		let x = (result != null && result != undefined) ? result : "대답없음";
+//		alert(result ?? "대답없음");
+let firstName = null;
+let lastName = null;
+let nickName = null;
+		
+alert(firstName ?? lastName ?? nickName ?? "손님1");
+</script>
+</body>
+</html>

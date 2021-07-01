@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>함수</title>
+</head>
+<body>
+<script>
+/* function showMessage(text) {
+	if (text === undefined) { // === 는 값과 값의종류가 모두 같은지 확인
+		text = '빈 문자열'
+	}
+	
+	alert(text);
+	}
+showMessage(); */
+// alert(0 == false);
+// alert('' == false);
+// alert(0 === false); //strict equality operator
+// alert(null == undefined); // True
+// alert(null === undefined); // False
+
+/* if (0) {
+	alert('True');
+} else {
+	alert('False');
+} */
+
+function return_long() {
+	let a = "Hi ";
+	let b = "My Name ";
+	let c = "is ";
+	let d = "Tomas ";
+	
+	return (// return; 으로 표현 
+	a + b + c + d + a + b + c + d ); // ( a+b+c+d+a+b+c+d) 로 표현해야 들어감
+}
+alert(return_long());
+</script>
+</body>
+</html>

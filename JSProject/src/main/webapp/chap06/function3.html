@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>함수 스코프</title>
+</head>
+<body>
+<script>
+"use strict" // 
+let age = prompt("나이를 알려주세요", 18);
+let welcome;
+
+if (age < 18) {
+	welcome = function() {
+		alert("안녕!");
+	}
+
+} else {
+	welcome = function() {
+		alert("안녕하세요!");
+	}
+
+}
+welcome();
+</script>
+</body>
+</html>

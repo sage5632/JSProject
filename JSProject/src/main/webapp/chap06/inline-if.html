@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>3항 연산자</title>
+</head>
+<body>
+<script>
+let age = prompt('나이는?', '');
+/* let result = (age < 18) ? '미성년자' : '성인';
+
+alert(result); */
+
+age = parseInt(age); // 문자열을 숫자로 바꿈
+if (age < 18)
+	result = "미성년자";
+else
+	result = "성인";
+document.write(age + "살은 " + result + "입니다.");
+</script>
+</body>
+</html>

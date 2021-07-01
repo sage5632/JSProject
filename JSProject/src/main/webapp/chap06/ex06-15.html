@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>if else</title>
+</head>
+<body>
+<h3> if-else를 이용한 학점 매기기</h3>
+<hr>
+<script>
+	let grade;
+	let score = prompt("홍길동님 점수를 입력하세요", 100);
+	score = parseInt(score); // 문자열을 숫자로 바꿈
+	/* if(score >= 90) // 90점 이상
+		grade = "A";
+	else if(score >=80) // 80점 이상 90미만
+		grade = "B";
+	else if(score >=70) // 70점이상 80미만
+		grade = "C";
+	else if(score >=60) // 60점이상 70미만
+		grade = "D";
+	else // 그외 (60점 미만)
+		grade = "F"; */
+	grade = (score >= 90) ? "A" : (score >= 80) ? "B" : (score >= 70) ? "C" : (score >= 60) ? "D" : "F"
+	document.write(score + "는 " + grade + "입니다.<br>")
+</script>
+</body>
+</html>
