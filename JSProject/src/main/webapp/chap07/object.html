@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>객체</title>
+</head>
+<body>
+<script>
+/* let user = new Object();
+let user1 = {}; // object literal */
+
+/* let user = {
+		name : "John",
+		age : 30,
+		"likes birds": true, // ""로 묶어줘야함
+}; // Json(JavaScript Object Notation) 자바스크립트 객체 표기법
+
+alert(user.name);
+alert(user.age);
+user.isAdmin = true;
+alert(user.isAdmin);
+user["likes birds"] = false;
+user[isAdmin] = true;
+let key = "likes birds";
+user[key] = true; */
+
+/* let user = {
+		name : "John",
+		age : 30,
+};
+let key = prompt("사용자의 어떤 정보가 필요한가요?", "name");
+alert(user[key]); */
+
+/* let fruit = prompt("어떤 과일 살래요?", "apple");
+let bag = {
+		[fruit]: 5,
+}
+alert(bag.apple); */
+
+/* function makeUser(name, age) {
+	return {
+		name: name,
+		age: age,
+	};
+} */
+
+function makeUser(name, age) {
+	return {
+		name,
+		age,
+	};
+}
+let user = makeUser("John", 30);
+alert(user.name);
+</script>
+</body>
+</html>

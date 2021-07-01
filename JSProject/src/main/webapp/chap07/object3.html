@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>생성자 함수</title>
+</head>
+<body>
+<script>
+function User(name) {
+	// this = {}
+	this.name = name;
+	this.isAdmin = true;
+	// return this;
+}
+let user01 = new User("홍길동");
+let user02 = new User("고길동");
+alert(user01.name);
+alert(user02.name);
+</script>
+</body>
+</html>
