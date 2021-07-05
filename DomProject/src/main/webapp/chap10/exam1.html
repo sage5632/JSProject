@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>마우스 클릭 연습</title>
+<style>
+table { border : 1px solid blue; border-collapse : collapse; }
+td { border : 1px solid blue; width : 50px; height : 50px; }
+</style>
+<script>
+var last;
+function randomMove() {
+let i = Math.floor(Math.random()*100);
+document.images[i].src="media/folder-blue-pictures-icon.png";
+last = i;
+}
+
+function clickMove(e){
+
+  document.images[last].src="";
+  randomMove();
+
+}
+
+</script>
+</head>
+<body onload="randomMove()">
+<h2>마우스 클릭 연습</h2>
+<hr>
+
+<table>
+<tr>
+<td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td>
+</tr>
+<tr>
+<td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td>
+</tr>
+<tr>
+<td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td>
+</tr>
+<tr>
+<td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td>
+</tr>
+<tr>
+<td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td>
+</tr>
+<tr>
+<td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td>
+</tr>
+<tr>
+<td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td>
+</tr>
+<tr>
+<td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td>
+</tr>
+<tr>
+<td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td>
+</tr>
+<tr>
+<td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td><td><img src="" onclick="clickMove(event)"></td>
+</tr>
+
+</table>
+
+</body>
+</html>
